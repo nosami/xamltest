@@ -52,15 +52,6 @@
   <ItemGroup>
     <EmbeddedResource Include="fsxaml8Page.xaml" />
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="MyPage1.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyPage2.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyPage3.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="fsxaml8Page.xaml.fs">
@@ -70,16 +61,6 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="MyPage.fs" />
-    <Compile Include="MyPage1.xaml.fs">
-      <DependentUpon>MyPage1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyPage2.xaml.fs">
-      <DependentUpon>MyPage2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyPage3.xaml.fs">
-      <DependentUpon>MyPage3.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
