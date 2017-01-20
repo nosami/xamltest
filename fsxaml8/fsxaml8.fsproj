@@ -50,12 +50,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="fsxaml8Page.xaml" />
+    <EmbeddedResource Include="XamlPage.xaml" />
     <EmbeddedResource Include="App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fsxaml8Page.xaml.fs">
-      <DependentUpon>fsxaml8Page.xaml</DependentUpon>
+    <Compile Include="XamlPage.xaml.fs">
+      <DependentUpon>XamlPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.fs">
       <DependentUpon>App.xaml</DependentUpon>

@@ -3,4 +3,4 @@
 open Xamarin.Forms
 
 type App() =
-    inherit Application(MainPage = fsxaml8Page())
+    inherit Application(MainPage = XamlPage())
